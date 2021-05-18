@@ -1,0 +1,9 @@
+{
+  "Id": "OptimizedPlay",
+  "DisplayName": "Optimized Play",
+  "Author": "PatrickKR",
+  "Version": "0.0.4",
+  "AssemblyName": "OptimizedPlay.dll",
+  "EntryMethod": "OptimizedPlay.Main.Load",
+  "HomePage": "https://github.com/patrick-mc/OptimizedPlay"
+}
