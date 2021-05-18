@@ -314,6 +314,7 @@ namespace OptimizedPlay
 				if (!_shouldSkip)
 				{
 					__instance.RemakePath();
+					__instance.UpdateDecorationSprites();
 				}
 				else
 				{
@@ -325,6 +326,7 @@ namespace OptimizedPlay
 					{
 						_shouldRender = false;
 						CustomLevel.ApplyEventsToFloors(scrLevelMaker.instance.listFloors, __instance.levelData, __instance.lm, __instance.events);
+						__instance.UpdateDecorationSprites();
 					}
 					else
 					{
